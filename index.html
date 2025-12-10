@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume - Taffhimuz Zaman</title>
+
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: #4565a5;
+      padding: 30px;
+    }
+
+    .resume-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      padding: 30px 40px;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #e5e7eb;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    .header-left h1 {
+      font-size: 32px;
+      letter-spacing: 1px;
+      color: #111827;
+    }
+
+    .header-left h2 {
+      font-size: 16px;
+      font-weight: 500;
+      color: #6b7280;
+      margin-top: 4px;
+    }
+
+    .header-right {
+      text-align: right;
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+    }
+
+    .header-right a {
+      text-decoration: none;
+      color: #2563eb;
+    }
+
+    /* Section heading */
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #111827;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    .section hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 14px;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 6px;
+      text-align: justify;
+    }
+
+    /* Lists */
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      color: #111827;
+      font-size: 14px;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .flex-2 {
+      flex: 1 1 48%;
+    }
+
+    .edu-item {
+      margin-bottom: 10px;
+    }
+
+    .edu-item h3 {
+      font-size: 15px;
+      color: #111827;
+    }
+
+    .edu-item span {
+      font-size: 13px;
+      color: #6b7280;
+    }
+
+    /* Small screen */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .resume-container {
+        padding: 20px;
+      }
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header-right {
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-container">
+
+    
+    <header class="header">
+      <div class="header-left">
+        <h1>Taffhimuz Zaman</h1>
+        <h2>Student | Aspiring Software Engineer</h2>
+      </div>
+      <div class="header-right">
+        <div>📞 +91-6201140484</div>
+        <div>📧 <a href="mailto:youremail@example.com">taffhimuzzamanhamza@gmail.com</a></div>
+        <div>📍 patna, India</div>
+      </div>
+    </header>
+
+    
+    <section class="section">
+      <h2 class="section-title">Career Objective</h2>
+      <hr />
+      <p>
+        To obtain an entry-level position as a software engineer where I can use my
+        programming skills, problem-solving ability, and passion for learning to
+        contribute to innovative projects while continuously improving my knowledge.
+      </p>
+    </section>
+
+    
+    <div class="flex-row">
+
+      
+      <section class="section flex-2">
+        <h2 class="section-title">Education</h2>
+        <hr />
+        <div class="edu-item">
+          <h3>Bachelor of Technology (B-Tech)</h3>
+          <span>Quad AI school of technology , patna | 2025 – Present</span>
+          <p>Current CGPA: 8.2 / 10 (till 2nd semester)</p>
+        </div>
+
+        <div class="edu-item">
+          <h3>Higher Secondary (Class XII)</h3>
+          <span>christ church high school, patna | 2025</span>
+          <p>Percentage: 75%</p>
+        </div>
+
+        <div class="edu-item">
+          <h3>Secondary (Class X)</h3>
+          <span>christ church high school,patna | 2023</span>
+          <p>Percentage: 78%</p>
+        </div>
+      </section>
+
+      
+      <section class="section flex-2">
+        <h2 class="section-title">Skills</h2>
+        <hr />
+        <p><b>Programming Languages</b></p>
+        <ul>
+          <li>Python (basic to intermediate)</li>
+          <li>JavaScript (DOM, basic ES6)</li>
+          <li>C / C++ (fundamentals)</li>
+        </ul>
+
+        <p><b>Web Technologies</b></p>
+        <ul>
+          <li>HTML5, CSS3</li>
+          <li>Responsive web page design</li>
+        </ul>
+
+        <p><b>Tools & Others</b></p>
+        <ul>
+          <li>VS Code, Git (basic)</li>
+          <li>Problem solving, teamwork, communication</li>
+        </ul>
+      </section>
+    </div>
+
+    
+    <section class="section">
+      <h2 class="section-title">Projects</h2>
+      <hr />
+      <p><b>1. Personal Portfolio Website</b></p>
+      <ul>
+        <li>Designed and developed a responsive portfolio using HTML, CSS and basic JavaScript.</li>
+        <li>Showcases my projects, skills and contact information.</li>
+      </ul>
+
+      <p><b>2. Simple Weather App (Practice Project)</b></p>
+      <ul>
+        <li>Created a small app UI that displays weather details using dummy data.</li>
+        <li>Focussed on layout, forms and card-style design.</li>
+      </ul>
+    </section>
+
+    
+    <section class="section">
+      <h2 class="section-title">Contact Details</h2>
+      <hr />
+      <p><b>Phone:</b> +91-6201140848</p>
+      <p><b>Email:</b> taffhimuzzamanhamza@gmail.com</p>
+      <p><b>Address:</b> bakerganj, muharrampur, patna, bihar, India</p>
+      <p><b>LinkedIn / GitHub:</b> linkedin.com/in/taffhimuz zaman | github.com/@zaman</p>
+    </section>
+
+  </div>
+
+</body>
+</html>
